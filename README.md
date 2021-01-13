@@ -1,3 +1,3 @@
 # Scrape Wikiart
-Web scraper for wikiArt. Under development
+Scrapers to scrape art images and metadata from Wikiart and Wikimedia Commons. Under development
 
