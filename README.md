@@ -3,11 +3,11 @@ Scrapers to scrape art images and metadata from Wikiart and Wikimedia Commons. T
 research- for example in image captioning, image generation, or image classiifcation. Metadata of art genre, style, title, and art images will allow for a diverse scope 
 of machine leanring research  
 
-# How to run: 
+## How to run: 
 `notebook_wikiart_scraper.ipynb`- Python notebook that carrys out scrapping. Useful to debug and improve on the crawling 
 `wikiart_scraper.py`- Implements the crawler with multiprocessing. Faster to scrape images and metadata 
 
-# Requirements: 
+## Requirements: 
 * bs4 (BeautifulSoup)
 * urllib
 * selenium 
