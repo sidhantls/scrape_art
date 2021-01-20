@@ -4,8 +4,9 @@ research- for example in image captioning, image generation, or image classiifca
 of machine leanring research  
 
 ## How to run 
-`notebook_wikiart_scraper.ipynb`- Python notebook that carrys out scrapping. Useful to debug and improve on the crawling 
-`wikiart_scraper.py`- Implements the crawler with multiprocessing. Faster to scrape images and metadata 
+`notebook_wikiart_scraper.ipynb`- Python notebook that carrys out scrapping. Useful to debug and improve on the crawling  
+`wikiart_scraper.py`- Implements the crawler with multiprocessing. Faster to scrape images and metadata  
+Download the selenium [ChromeDriver](https://chromedriver.chromium.org/downloads) and move it to the repo's root 
 
 ## Requirements 
 * bs4 (BeautifulSoup)
