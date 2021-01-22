@@ -13,7 +13,7 @@ from tqdm import tqdm
 
 def get_art_urls_from_genre(genre_art_html):
     """
-    input: url of genre page that contains all its art titles
+    input: html of genre page that contains all its art titles
     output: list of beautiful soup objects containing all art titles on the page
     """
     genre_soup = BeautifulSoup(genre_art_html, 'html.parser')
