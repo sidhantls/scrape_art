@@ -5,7 +5,7 @@ of machine leanring research
 
 ## How to run 
 Download the selenium [ChromeDriver](https://chromedriver.chromium.org/downloads) and move it to the repo's root  
-`notebook_wikiart_scraper.ipynb`- Python notebook that carrys out crawling. Notebook format is useful to debug and improve on the crawling    
+`notebook_wikiart_scraper.ipynb`- Python notebook that carrys out the crawling. Notebook format is useful to debug and develop   
 `python wikiart_scraper.py`- To run the crawler with multiprocessing. Faster to retrieve images and metadata  
 
 ## Requirements 
