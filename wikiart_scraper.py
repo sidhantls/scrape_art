@@ -203,7 +203,6 @@ if __name__ == '__main__':
         art_urls = []
         num_repeats = len(art_title_blocks)
 
-        art_urls = []
         for website_url, title_block in zip(repeat(website_url, num_repeats), art_title_blocks):
             art_urls.append(get_art_page_url(website_url, title_block))
 
